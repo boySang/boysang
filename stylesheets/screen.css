@@ -274,3 +274,15 @@ table tr:last-child td:last-child {
   margin-top: 7em;
   text-align: center;
 }
+
+@media (max-width: 320px){ {
+    body {
+      font-size:16px;
+    }
+    .content {
+      margin: 0 5%;
+    }
+    .related {
+      padding: 0 5%;
+    }
+}
